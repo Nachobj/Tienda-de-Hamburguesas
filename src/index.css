@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: aliceblue;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.btnNav {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.carrito {
+  background-color: black;
+  color: aliceblue;
+  align-items: center;
+}
+
+.containerItemList {
+  max-width: 1640px;
+  position: relative;
+}
+
+.header {
+  width: 60%;
+  background-size: cover;
+}
+
+.titulo {
+  position: absolute;
+  color: white;
+  display: block;
+}
